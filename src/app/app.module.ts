@@ -10,17 +10,18 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { PokemonEquipComponent } from './pokemon-equip/pokemon-equip.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    PokemonsListComponent,
-    PokemonEquipComponent,
-  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     NgxPaginationModule
+    
+  ],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    PokemonsListComponent,
+    PokemonEquipComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

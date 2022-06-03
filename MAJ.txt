@@ -1,0 +1,4 @@
+Faire un systeme de rechercher (input qui recherche les noms des pokemons)
+Faire un systeme de tri, par hp, attack, et type
+Faire une equipe de 6 pokemons
+Modification de chaque pokemon 
